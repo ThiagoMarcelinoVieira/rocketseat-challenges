@@ -1,0 +1,81 @@
+main {
+    background-color: #212427;
+    margin: 20px 10px 20px 10px;
+    overflow: auto;
+    border-radius: 12px;
+    padding: 80px 120px;
+    position: relative;
+}
+
+legend {
+    font: var(--heading-sm);
+    color: var(--heading-color);
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+svg {
+    fill: #869198;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.tchetche {
+    color: var(--heading-color);
+}
+
+h2 {
+    color: var(--heading-color);
+    font: var(--heading);
+    margin-bottom: 2.5rem;
+}
+
+label {
+    margin: 1rem 0 0.875rem 0;
+}
+
+.personalizacao legend,
+.contato legend {
+    padding-top: 3rem;
+}
+
+hr {
+    margin: 48px 0 40px 0;
+    border-color: #363B40;
+}
+
+.checkboxes-wrapper label span {
+    color: #59B2FF;
+    text-decoration: underline;
+}
+
+form {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    background-color: #1D6FB6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    font: var(--text-lg);
+
+    svg {
+        fill: #fff;
+    }
+}

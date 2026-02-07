@@ -1,0 +1,23 @@
+aside {
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0 20px 30px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 12px;
+}
+
+aside img {
+    width: 45.85px;
+    height: 48px;
+}
+
+aside p {
+    font: var(--text-lg);
+}
+
+#logo {
+    font: 400 2.5rem/normal 'Leckerli One', cursive;
+    color: #FF598B;
+}

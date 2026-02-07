@@ -1,0 +1,65 @@
+@media (max-width: 48em) {
+  body {
+    overflow: auto;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+    justify-items: center;
+  }
+
+  aside {
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    padding: 24px;
+    position: static;
+  }
+
+  main {
+    grid-row: 2;
+    overflow: visible;
+    padding: 1.5rem;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  aside .aside-container {
+    text-align: center;
+  }
+
+  aside img[src*="Illustration"] {
+    width: 312px;
+    height: 232px;
+  }
+
+  main h1 {
+    margin-bottom: .5rem;
+  }
+
+  .address .flex {
+    flex-direction: column;
+  }
+
+  .actions-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actions-wrapper button {
+    width: 90%;
+    padding: 12px;
+    text-align: center;
+    margin: 0;
+  }
+}

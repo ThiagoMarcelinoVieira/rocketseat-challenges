@@ -1,0 +1,59 @@
+@media (max-width: 48em) {
+  .desktop-only {
+    display: none;
+  }
+
+  main.grid.container {
+    padding-inline: .5rem;
+  }
+
+  #featured .grid, #weekly .grid {
+    grid-template-columns: 1fr;
+  }
+
+  img[src*="Logo"] {
+    width: 100px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  #secondary {
+    display: flex;
+    gap: 2rem;
+    text-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  #featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #featured h2 {
+    font-size: 100%;
+  }
+
+  figcaption {
+    padding: 0;
+  }
+
+  #featured > .card:first-of-type {
+    width: 328px;
+    height: 416px;
+  }
+
+  #weekly img {
+    width: 328px;
+    height: 160px;
+  }
+}
