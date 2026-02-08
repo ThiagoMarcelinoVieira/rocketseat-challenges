@@ -15,10 +15,11 @@ Estes projetos foram criados para demonstrar o uso de **Media Queries** e adapta
 * **Formulário de Convite** - Estilização de inputs e validações básicas.
 * **Formulário de Matrícula** - Estrutura de dados e acessibilidade em forms.
 * **Projeto Portfólio** - Minha página pessoal reunindo links e bio.
+* **Snitap - Animações** - Página sobre patins para aprendizado de animações e transições CSS.
 
 ## 🛠️ Tecnologias e Conceitos
 * **HTML5** (Semântica)
-* **CSS3** (Variáveis, Flexbox e CSS Grid)
+* **CSS3** (Variáveis, Flexbox, CSS Grid e Animações/Transições CSS)
 * **Mobile First** (Responsividade)
 * **Git & GitHub** (Versionamento)
 
